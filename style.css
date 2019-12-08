@@ -1,0 +1,26 @@
+body {
+    content: "";
+    background-color:#243d47;
+    
+    
+
+        
+}
+#backdrop {
+    background: url(https://live.staticflickr.com/773/22509192186_bbe4ec202d_k.jpg);
+    opacity: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
+} 
+p{
+    font-size: 300%;
+    opacity: 1;
+}
+
+g{
+    font-size: 100%;
+}

@@ -24,6 +24,8 @@ newgames = [["SFV", "Street Fighter"], ["StrIVe", "Guilty Gear"], ["MK11", "Mort
 
 gameAdj = ["scrubby", "watered down", "lack of interesting"]
 
+
+
 fg = [[["3s", "USFIV", "SFV", "A3"], "Street fighter"], [["Smash 64", "Melee", "Sm4sh", "SmashUlt"], "Smash"], [["Tekken 7", "TT2", "Noctis", "Akuma"], "Tekken"], [["Rev2", "StrIVe", "Rev", "StrIVe"], "Guilty Gear"]]
 
 oldgame = [[["ST", "HF", "A2"], "Capcom"], [["Xrd", "+R", "X2"], "ArcSys"], [["98", "2002UM", "KOFXIII"], "SNK"], [["MK2", "UMK3", "MK9"], "NRS"], [["Mvc2", "Umvc3", "Cvs2"], "Capcom"]]
@@ -34,7 +36,7 @@ bs = ["is such bullshit in ", "is so scrubby in ", "ruins", "is the reason I don
 
 didSomeElse = ["slept thru top 8", "played melty blood in the bathroom", "korean backdashed home", "bitched on twitter"]
 
-openers = ["yo", "honestly", "man", "imma be real"]
+// openers = ["yo", "honestly", "man", "imma be real"]
 
 topTier = [[["Claw", "Chun"], "ST"], [["Chun", "Yun"], "3s"], [["Elena", "Yun"], "USFIV"], [["G", "Rashid"], "SFV"], [["Akuma", "Geese"], "Tekken 7"], [["Akuma", "Karin"], "SFV"]]
 
@@ -42,17 +44,12 @@ mechanic = ["parry", "focus attack", "custom combos", "v-trigger", "air blocking
 
 waterGames = ["SFV", "MK11", "StrIVe", "Tekken 7", "Smash"]
 
-guestChar = [[["Negan", "Geese"], "Tekken"], [["Joker", "Terminator"], "MK11"], [["Terry", "Hero"], "SmashUlt"]]
+// guestChar = [[["Negan", "Geese"], "Tekken"], [["Joker", "Terminator"], "MK11"], [["Terry", "Hero"], "SmashUlt"]]
 
 wifi = ['everyone is on wi-fi', "you're underwater",]
 
 
 
-
-
-function randGen() {
-    return Math.floor(Math.random() * 5);
-}
 
 var clicks = 0
 var myOpacity = 0
@@ -71,22 +68,21 @@ function clickCounter() {
 }
 
 
+const random = (e) => {
+    return Math.floor(Math.random() * e);
+}
+
+
+
+const randomDif = (e) => {
+    return Math.floor(Math.random() * e);
+}
+
 
 
 function sentence() {
-    var rand0 = 0
-    var randtweet = Math.floor(Math.random() * 13);
-    var rand1 = Math.floor(Math.random() * 10);
-    var rand2 = Math.floor(Math.random() * 10);
-    var rand3 = Math.floor(Math.random() * 10);
-    var rand4 = Math.floor(Math.random() * 10);
-    var rand5 = Math.floor(Math.random() * 10);
-    var rand6 = Math.floor(Math.random() * 10);
-    var randseven = Math.floor(Math.random() * 7);
     var randsix = Math.floor(Math.random() * 6);
-    var randfive = Math.floor(Math.random() * 5);
     var rands = Math.floor(Math.random() * 4);
-    var randc = Math.floor(Math.random() * 3);
     var randt = Math.floor(Math.random() * 2);
     // var i = randGen();
     var numberOne = 3;
@@ -119,39 +115,39 @@ function sentence() {
     } while (numberFive === numberSix || numberFive === numberFour);
 
 
-    var sentence = game[rand1] + " " + "is" + " " + adjectives[rand2] + " " + conj[randt] + " " + "it's" + " " + thingAre[randfive] + " " + crit[rands]
+    var sentence = game[random(10)] + " " + "is" + " " + adjectives[random(10)] + " " + conj[random(2)] + " " + "it's" + " " + thingAre[random(5)] + " " + crit[random(4)]
 
-    var sentence2 = game[numberFour] + " " + "is " + " " + comp[randt] + " " + "than" + " " + game[numberFive]
-
-
-    var sentence3 = game[rand1] + " " + "has the most" + " " + adjectives[rand4] + " " + thing[randsix]
+    var sentence2 = game[numberFour] + " " + "is " + " " + comp[random(2)] + " " + "than" + " " + game[numberFive]
 
 
-    var sentence4 = exag[randc] + " " + fgcdeg[randt] + " " + "play" + " " + game[rand3]
+    var sentence3 = game[random(10)] + " " + "has the most" + " " + adjectives[random(10)] + " " + thing[random(6)]
+
+
+    var sentence4 = exag[random(3)] + " " + fgcdeg[random(2)] + " " + "play" + " " + game[random(10)]
 
     var sentence5 = marvel[numberOne] + " " + "doesn't even compare to" + " " + marvel[numberTwo]
 
 
-    var sentence6 = newgames[rands][0] + " " + "is the worst" + " " + newgames[rands][1] + " " + "because of its" + " " + gameAdj[randc] + " " + thing[randc]
+    var sentence6 = newgames[rands][0] + " " + "is the worst" + " " + newgames[rands][1] + " " + "because of its" + " " + gameAdj[random(3)] + " " + thing[random(3)]
 
 
     var sentence7 = fg[rands][0][rands] + " doesnt even play like REAL " + fg[rands][1]
 
 
-    var sentence8 = franchise[randsix] + " " + "has a history of ignoring its loyal fan base "
+    var sentence8 = franchise[random(6)] + " " + "has a history of ignoring its loyal fan base "
 
-    var sentence9 = "after " + oldgame[randt][0][randc] + ", " + oldgame[randt][1] + " just hasn't been the same since"
+    var sentence9 = "after " + oldgame[randt][0][random(3)] + ", " + oldgame[randt][1] + " just hasn't been the same since"
 
 
     // var sentence10 = "this culture of patching games is so " + adjectives[randsix] + ". " + "just look at " + currentGames[randsix]
-    var sentence11 = topTier[randsix][0][randt] + " " + bs[randfive] + " " + topTier[randsix][1]
+    var sentence11 = topTier[randsix][0][random(2)] + " " + bs[random(5)] + " " + topTier[randsix][1]
 
-    var sentence12 = currentGames[randfive] + " is so boring to watch , I " + didSomeElse[rands] + " instead"
+    var sentence12 = currentGames[random(5)] + " is so boring to watch , I " + didSomeElse[random(4)] + " instead"
 
-    var sentence13 = mechanic[randseven] + " was a mistake"
+    var sentence13 = mechanic[random(7)] + " was a mistake"
     // var sentence14 = "making  " + waterGames[randfive] + "  more acessable was a great idea "
-    var sentence15 = game[rand1] + "'s " + "netcode always feels like " + wifi[randt]
-    var sentence16 = franchise[randsix] + " can't ever balance their game correctly "
+    var sentence15 = game[random(10)] + "'s " + "netcode always feels like " + wifi[random(2)]
+    var sentence16 = franchise[random(6)] + " can't ever balance their game correctly "
 
     clickCounter();
 
@@ -160,11 +156,11 @@ function sentence() {
 
 
 
-    var tweet = [sentence, sentence2, sentence3, sentence4, sentence5, sentence6, sentence7, sentence8, sentence9,  sentence11, sentence12, sentence13, sentence15, sentence16]
+    var tweet = [sentence, sentence2, sentence3, sentence4, sentence5, sentence6, sentence7, sentence8, sentence9, sentence11, sentence12, sentence13, sentence15, sentence16]
 
 
+    
 
-    console.log(tweet[randtweet]);
-    document.getElementById("sentence").innerHTML = '"' + tweet[randtweet] + '"'
+    document.getElementById("sentence").innerHTML = '"' + tweet[random(13)] + '"'
 }
 // console.log(sentence())

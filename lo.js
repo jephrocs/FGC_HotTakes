@@ -25,6 +25,7 @@ waterGames = ["SFV", "MK11", "StrIVe", "Tekken 7", "Smash"]
 // guestChar = [[["Negan", "Geese"], "Tekken"], [["Joker", "Terminator"], "MK11"], [["Terry", "Hero"], "SmashUlt"]]
 wifi = ['everyone is on wi-fi', "you're underwater",]
 
+// keep count for fire effect
 var clicks = 0
 var myOpacity = 0
 function clickCounter() {

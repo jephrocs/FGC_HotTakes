@@ -18,11 +18,11 @@ oldgame = [[["ST", "HF", "A2"], "Capcom"], [["Xrd", "+R", "X2"], "ArcSys"], [["9
 currentGames = ["SFV", "MK11", "Tekken 7", "DBFZ", "BBTAG", "SmashUlt"]
 bs = ["is such bullshit in ", "is so scrubby in ", "ruins", "is the reason I don't play", "taken out would actually improve"]
 didSomeElse = ["slept thru top 8", "played melty blood in the bathroom", "korean backdashed home", "bitched on twitter"]
-// openers = ["yo", "honestly", "man", "imma be real"]
+ openers = ["yo", "honestly", "man", "imma be real"]
 topTier = [[["Claw", "Chun"], "ST"], [["Chun", "Yun"], "3s"], [["Elena", "Yun"], "USFIV"], [["G", "Rashid"], "SFV"], [["Akuma", "Geese"], "Tekken 7"], [["Akuma", "Karin"], "SFV"]]
 mechanic = ["parry", "focus attack", "custom combos", "v-trigger", "air blocking", "rage arts", "fatal blow"]
 waterGames = ["SFV", "MK11", "StrIVe", "Tekken 7", "Smash"]
-// guestChar = [[["Negan", "Geese"], "Tekken"], [["Joker", "Terminator"], "MK11"], [["Terry", "Hero"], "SmashUlt"]]
+guestChar = [[["Negan", "Geese"], "Tekken"], [["Joker", "Terminator"], "MK11"], [["Terry", "Hero"], "SmashUlt"]]
 wifi = ['everyone is on wi-fi', "you're underwater",]
 
 // keep count for fire effect

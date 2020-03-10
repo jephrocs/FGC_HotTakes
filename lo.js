@@ -1,4 +1,5 @@
 
+
 var game
 game = ["SFV", "KI", "Tekken 7", "UNIST", "Rev2", "SamSho", "BBTag", "Smash Ult", "DBFZ", "MVCI"];
 

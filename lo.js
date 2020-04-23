@@ -13,7 +13,7 @@ conj = ["and", "because"]
 thing = ["mechanics", "gameplay", "characters", "OST", "online", "balance"]
 thingAre = ["mechanics are", "gameplay is", "characters are", "OST is", "online is"]
 
-crit = ["bullshit", "bad", "nothing special", "designed poorly", "kusoge"]
+crit = ["bs", "bad", "nothing special", "designed poorly", "kusoge"]
 comp = ["better", "worse"]
 fgcdeg = ["scrubs", "degenerates"]
 franchise = ["Capcom", "Namco", "ASW", "Nintendo", "NRS", "SNK",]
@@ -152,7 +152,7 @@ function sentence() {
     var sentence13 = mechanic[randseven] + " was a mistake"
     // var sentence14 = "making  " + waterGames[randfive] + "  more acessable was a great idea "
     var sentence15 = game[rand1] + "'s " + "netcode always feels like " + wifi[randt]
-    var sentence16 = franchise[randsix] + " can't ever balance their game correctly "
+    var  sentence16 = franchise[randsix] + " can't ever balance their game correctly "
 
     clickCounter();
 

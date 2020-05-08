@@ -150,7 +150,7 @@ function sentence() {
     var sentence12 = currentGames[randfive] + " is so boring to watch , I " + didSomeElse[rands] + " instead"
 
     var sentence13 = mechanic[randseven] + " was a mistake"
-    // var sentence14 = "making  " + waterGames[randfive] + "  more acessable was a great idea "
+    // var sentence14 = "making " + waterGames[randfive] + "  more acessable was a great idea "
     var sentence15 = game[rand1] + "'s " + "netcode always feels like " + wifi[randt]
     var  sentence16 = franchise[randsix] + " can't ever balance their game correctly "
 

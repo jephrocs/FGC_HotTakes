@@ -144,7 +144,7 @@ function sentence() {
     var sentence9 = "after " + oldgame[randt][0][randc] + ", " + oldgame[randt][1] + " just hasn't been the same since"
 
 
-    // var sentence10 = "this culture of patching games is so " + adjectives[randsix] + ". " + "just look at " + currentGames[randsix]
+    var sentence10 = "this culture of patching games is so " + adjectives[randsix] + ". " + "just look at " + currentGames[randsix]
     var sentence11 = topTier[randsix][0][randt] + " " + bs[randfive] + " " + topTier[randsix][1]
 
     var sentence12 = currentGames[randfive] + " is so boring to watch , I " + didSomeElse[rands] + " instead"

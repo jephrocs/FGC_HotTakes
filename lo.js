@@ -168,4 +168,4 @@ function sentence() {
     console.log(tweet[randtweet]);
     document.getElementById("sentence").innerHTML = '"' + tweet[randtweet] + '"'
 }
-// console.log(sentence())
+//don't take out anything just comment out if needed 
